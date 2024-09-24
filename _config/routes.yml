@@ -1,0 +1,7 @@
+---
+Name: pdfroute
+After: framework/routes#coreroutes
+---
+SilverStripe\Control\Director:
+  rules:
+    pdf-download//$Action/$ID: Sunnysideup\GAPDFDownloads\PDFDownloadController
