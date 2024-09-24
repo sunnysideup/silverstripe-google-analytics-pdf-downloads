@@ -10,6 +10,17 @@
 
 ## Documentation
 
+This module is not compatible with other modules that overwrite the assets/.htaccess file.
+
+After installing, add your google analytics code to your yml config like so:
+```yml
+---
+Name: pdf_analytics
+---
+Sunnysideup\GAPDFDownloads\PDFDownloadController:
+  analytics_code: 'G-0000000'
+```
+
 -   [Developer Docs](docs/en/INDEX.md)
 -   [User Guide](docs/en/userguide.md)
 -   [API Docs](http://docs.ssmods.com/sunnysideup/google-analytics-pdf-downloads/classes.xhtml)
