@@ -34,5 +34,5 @@ AddHandler default-handler php phtml php3 php4 php5 inc
     RewriteRule .* ../index.php [QSA]
 </IfModule>
 
-RewriteCond %{TIME_YEAR}%{TIME_MON}%{TIME_DAY}%{TIME_HOUR}##%{QUERY_STRING} !^([^#]+)##\1
+RewriteCond %{TIME_YEAR}%{TIME_MON}%{TIME_DAY}%{TIME_HOUR}##%{QUERY_STRING} !^([^#]+)##\\1
 RewriteRule ^(.*)\.pdf$ /pdf-download/toPDF?q=$1 [R=302,L]
