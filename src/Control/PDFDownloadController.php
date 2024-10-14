@@ -11,6 +11,7 @@ class PDFDownloadController extends Controller
     use Configurable;
 
     private static $analytics_code = '';
+    private static $tag_code = '';
 
     private static $allowed_actions = [
         'topdf',
@@ -18,6 +19,6 @@ class PDFDownloadController extends Controller
 
     public function topdf(HTTPRequest $request)
     {
-        return $this->customise(['GACode' => PDFDownloadController::config()->get('analytics_code')])->renderWith('PDFDownloadController');
+        return $this->customise(['GACode' => PDFDownloadController::config()->get('analytics_code'), 'GTMCode' => PDFDownloadController::config()->get('tag_code')])->renderWith('PDFDownloadController');
     }
 }

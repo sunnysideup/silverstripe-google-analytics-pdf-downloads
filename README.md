@@ -19,6 +19,7 @@ Name: pdf_analytics
 ---
 Sunnysideup\GAPDFDownloads\PDFDownloadController:
   analytics_code: 'G-0000000'
+  tag_code: 'GTM-00000'
 ```
 
 -   [Developer Docs](docs/en/INDEX.md)
