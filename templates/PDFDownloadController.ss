@@ -10,7 +10,7 @@
   j.async = true
   j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl
   f.parentNode.insertBefore(j, f)
-})(window, document, 'script', 'dataLayer', 'GTM-PJZS8MJ')
+})(window, document, 'script', 'dataLayer', '$GTMCode')
 <!-- End Google Tag Manager -->
 </script>
 
@@ -18,7 +18,7 @@
 
 
 <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PJZS8MJ"
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=$GTMCode"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
