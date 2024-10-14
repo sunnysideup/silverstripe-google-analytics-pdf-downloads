@@ -30,7 +30,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
   gtag('config', '$GACode');
 
-  dataLayer.push({'event': 'PDF Load'});
+  dataLayer.push({'event': 'pdf_load'});
 </script>
 
 <script>
