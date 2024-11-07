@@ -1,6 +1,6 @@
 {
     "name": "sunnysideup/google-analytics-pdf-downloads",
-    "description": "A FooBar for Silverstripe CMS modules.",
+    "description": "Measure directly accessed PDF Downloads assets through Google Analytics .",
     "type": "silverstripe-vendormodule",
     "keywords": [
         "pdf",
