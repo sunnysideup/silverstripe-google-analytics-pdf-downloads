@@ -34,10 +34,6 @@
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
-    "bin": [
-        "bin/npm-build-google-analytics-pdf-downloads.sh",
-        "bin/npm-watch-google-analytics-pdf-downloads.sh"
-    ],
     "authors": [
         {
             "name": "Siôn Madden",
